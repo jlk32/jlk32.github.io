@@ -14,3 +14,27 @@ body {
 h1, h2, h3 {
     font-family: Georgia, "Times New Roman", Times, serif;
     }
+
+content{
+    width:940px;
+    margin-top:20px;
+    margin-right:auto;
+    margin-bottom:20px;
+    margin-left:auto;
+    position:relative;
+    background-color:#f2f3ed;
+    border-radius:25px;
+    -moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+
+header {
+    border-bottom-color: #CCC;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+header h1 {
+    padding:20px 20px 20px 97px;
+    color:##f6f5ee;
+    font-size:42px;
+    }
