@@ -1,1 +1,16 @@
+@charset "UTF-8";
+*{
+    margin:0px;
+    padding:0px;
+}
 
+body {
+    background-color: #f6f5ee;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    background-image: url(../images/needtosource.png);
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    }
