@@ -1,40 +1,92 @@
-@charset "UTF-8";
-*{
-    margin:0px;
-    padding:0px;
-}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Lil's Unhelathy Food Blog</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
-body {
-    background-color: #f6f5ee;
-    font-family:Verdana, Geneva, sans-serif;
-    font-size:12px;
-    background-image: url(../images/needtosource.png);
-}
 
-h1, h2, h3 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    }
+</head>
+<body>
 
-content{
-    width:940px;
-    margin-top:20px;
-    margin-right:auto;
-    margin-bottom:20px;
-    margin-left:auto;
-    position:relative;
-    background-color:#f2f3ed;
-    border-radius:25px;
-    -moz-border-radius:25px; /* Firefox 3.6 and earlier */
-}
+<content>
+    <header>
+        <a href="#" id="logo">Home</a>
+        <h1>Lil's Unhelathy Food Blog</h1>
+        <p>Eating bad food since 2016</p>
+        </header>
 
-header {
-    border-bottom-color: #CCC;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
+    <header id=animation>
+        <img src="images/Header image.jpg" width="940" height="250" alt="image1">
+    </header>
 
-header h1 {
-    padding:20px 20px 20px 97px;
-    color:##f6f5ee;
-    font-size:42px;
-    }
+    <NAV>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Recent Articles</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </NAV>
+
+    <article>
+    <h2>Make sure you start your day right:
+    With sugar.</h2>
+    
+    <p>
+    <img src="images/donut home.jpg" alt="donut" width="700" height="350">
+    <img id="sugar image" src="images/sugar home.jpg" alt="sugar cone" width="400" height="400">
+     Sugar is the most important meal of the day.
+    </p>
+    
+    <h3>Follow me for more healthy diet tips!</h3>
+    <p> #paleo #sugarfree4lyfe #mybodyisatemple. </p>
+    <h3>Another Sub Headline</h3>
+    <p>dolor sit amet consectetur adipiscing elit. Nulla id nulla risus, vitae consequat dui. Quisque vehicula tellus sed nisl feugiat adipiscing ut in neque. Nullam id sapien eget diam ullamcorper tempus a pharetra enim. Nam at ligula ligula. Maecenas turpis nunc, suscipit et viverra in, cursus eget tortor. Aenean mollis adipiscing est. Cras elementum blandit tincidunt. Aliquam at semper lacus. Etiam hendrerit lacinia mauris, vel fermentum risus venenatis ultrices.Sed sit amet tortor sit amet nulla molestie vestibulum. Praesent id sem a libero fermentum volutpat. Maecenas pharetra neque eu leo interdum hendrerit. Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus. Integer molestie turpis id est ultricies vel commodo magna viverra. Nunc gravida fermentum placerat. Duis lorem augue, tincidunt blandit vehicula quis, aliquam nec tellus. </p>
+
+    <section class="leftfloat">
+    <h3>nested left section</h3>
+    <p>Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus. Integer molestie turpis id est ultricies vel commodo magna viverra. Nunc gravida fermentum placerat. Duis lorem augue, tincidunt blandit vehicula quis, aliquam nec tellus.</p>
+    </section>
+
+    <section class="rightfloat">
+    <h3>nested right section</h3>
+    <p>Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus. Integer molestie turpis id est ultricies vel commodo magna viverra. Nunc gravida fermentum placerat. Duis lorem augue, tincidunt blandit vehicula quis, aliquam nec tellus.</p>
+    </section>
+
+    <h3>Another Sub Headline</h3>
+    <p>dolor sit amet consectetur adipiscing elit. Nulla id nulla risus, vitae consequat dui. Quisque vehicula tellus sed nisl feugiat adipiscing ut in neque. Nullam id sapien eget diam ullamcorper tempus a pharetra enim. Nam at ligula ligula. Maecenas turpis nunc, suscipit et viverra in, cursus eget tortor. Aenean mollis adipiscing est. Cras elementum blandit tincidunt. Aliquam at semper lacus. Etiam hendrerit lacinia mauris, vel fermentum risus venenatis ultrices.Sed sit amet tortor sit amet nulla molestie vestibulum. Praesent id sem a libero fermentum volutpat. Maecenas pharetra neque eu leo interdum hendrerit. Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus. Integer molestie turpis id est ultricies vel commodo magna viverra. Nunc gravida fermentum placerat. Duis lorem augue, tincidunt blandit vehicula quis, aliquam nec tellus. </p>
+    </article>
+
+    <footer>
+
+    <section class="first">
+    <p>&copy;2016 Unhealthy Eating Blog</p>
+    </section>
+
+    <section>
+    <h3>nested footer section</h3>
+    <p>Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus.</p>
+    </section>
+
+    <section>
+    <h3>nested footer section</h3>
+    <p>Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus.</p>
+    </section>
+
+    <section>
+    <h3>nested footer section</h3>
+    <p>Morbi diam ipsum, gravida sed scelerisque quis, imperdiet vitae quam. Donec sollicitudin, nunc sit amet convallis sagittis, libero ipsum sollicitudin elit, ac vestibulum ante turpis faucibus tellus.</p>
+    </section>
+
+    <br class="clearing">
+    </footer>
+
+
+
+
+
+</content>
+</body>
+</html>
