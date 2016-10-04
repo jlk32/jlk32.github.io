@@ -87,7 +87,7 @@ header p:hover {
     position: absolute;
     top: 12px;
     left: 20px;
-    background: url(../images/donut.jpg) no-repeat;
+    background: url(../donut.jpg) no-repeat;
     width: 61px;
     height: 62px;
     text-indent:-9999px;
